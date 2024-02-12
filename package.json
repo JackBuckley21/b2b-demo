@@ -9,10 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "@nextui-org/react": "^2.2.9",
     "autoprefixer": "10.4.14",
     "bcryptjs": "^2.4.3",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
+    "framer-motion": "^11.0.3",
     "mongoose": "^7.4.1",
     "next": "13.4.12",
     "next-auth": "^4.22.3",
