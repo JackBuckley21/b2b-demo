@@ -19,18 +19,18 @@ export default function Dashboard() {
       </div>
         <MenuBarMobile setter={setShowSidebar} />
       <Sidebar show={showSidebar} setter={setShowSidebar} />
-    <div className="grid grid-cols-1 place-items-center bg-[#646e78]/60  h-full ml-44 mt-28 rounded-tl-xl overflow-y-auto">   
-    <div className="ml-48 mr-10"> {/* Or any suitable wrapper with Tailwind */}
+    <div className="grid grid-cols-1 place-items-center bg-[#646e78]/60  w-screen h-full ml-44 mt-28 rounded-tl-xl">   
+    <div className=""> {/* Or any suitable wrapper with Tailwind */}
       <Toggle 
         initialState={showTwoColumns}
         onChange={(newState) => setShowTwoColumns(newState)}
   
       />
 
-      <div className={`grid ${showTwoColumns ? 'grid-cols-2 w-screen rounded-t-xl' : 'grid-cols-1 w-screen'} gap-2 w-screen`}>
+      <div className={`grid ${showTwoColumns ? 'grid-cols-2 w-auto' : 'grid-cols-1 w-auto'} w-screen`}>
         <div className="place-items-start overscroll-y-contain"><UserInfo/></div> 
         {showTwoColumns && (
-          <div className="place-items-end overscroll-y-contain">Column 2</div> 
+          <div className="place-items-start overscroll-y-contain border-l-2 border-white">Column 2</div> 
         )}
       </div>
     </div>

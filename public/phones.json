@@ -1,0 +1,92 @@
+[
+    {
+       "make": "Apple",
+       "model": "iPhone 13",
+       "storage": [64, 128, 256],  
+       "condition": ["New", "Refurbished", "Used"], 
+       "prices": {
+          "New": [800, 850, 950],  
+          "Refurbished": {
+            "Grade A": 700,
+            "Grade B": 650
+        },
+          "Used": [500, 575, 650],
+          "tradeIn": [500, 475 ,350]
+       },
+       "img":"https://i.pngimg.me/thumb/f/350/4c27693bb87744b1b3a9.jpg"
+    },
+    {
+       "make": "Samsung",
+       "model": "Galaxy S22",
+       "storage": [128, 256], 
+       "condition": ["New", "Refurbished", "Used"],
+       "prices": {
+          "New": [750, 850], 
+          "Refurbished": {
+            "Grade A": 400,
+            "Grade B": 350
+        },
+          "Used": [450, 550]
+       },
+       "img": "https://ongpng.com/wp-content/uploads/2023/04/7.Galaxy-S22-1504x1709-1.png"
+    },
+    {
+       "make": "Google",
+       "model": "Pixel 7",
+       "storage": [128, 256], 
+       "condition": ["New", "Refurbished"], 
+       "prices": {
+          "New": [600, 700],  
+          "Refurbished": {
+            "Grade A": 600,
+            "Grade B": 500
+        }
+       },
+       "img": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2023/05/sea-pixel-7a-on-transparent-background.png"
+    },
+    {
+        "make": "OnePlus",
+        "model": "Nord N30 5G",
+        "storage": [128],
+        "condition": ["New", "Refurbished"],
+        "prices": {
+            "New": [350],
+            "Refurbished": {
+                "Grade A": 300,
+                "Grade B": 250
+            }
+        },
+        "img": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/fanli/spec_black.png"
+    },
+    {
+        "make": "Xiaomi",
+        "model": "Redmi Note 12 Pro",
+        "storage": [128, 256],
+        "condition": ["New", "Refurbished", "Used"],
+        "prices": {
+            "New": [300, 350],
+            "Refurbished": {
+                "Grade A": 300,
+                "Grade B": 250
+            },
+            "Used": [200, 250]
+        },
+        "img": "https://static.vecteezy.com/system/resources/previews/025/273/747/original/xiaomi-redmi-note-12-pro-plus-5g-mockup-free-png.png"
+    },
+    {
+        "make": "Motorola",
+        "model": "Edge 30",
+        "storage": [128, 256],
+        "condition": ["New", "Refurbished"],
+        "prices": {
+            "New": [450, 550],
+            "Refurbished": {
+                "Grade A": 400,
+                "Grade B": 375
+            }
+        },
+        "img": "https://motorolaau.vtexassets.com/arquivos/ids/156359/Motorola-edge30Ultra-pdp-render-AshGray-2-f0p5pm3w.png?v=637992070110600000"
+    }
+ ]
+ 
+ 
