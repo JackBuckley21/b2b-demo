@@ -28,7 +28,7 @@ export default function Dashboard() {
       />
 
       <div className={`grid ${showTwoColumns ? 'grid-cols-2 w-auto' : 'grid-cols-1 w-auto'} w-screen`}>
-        <div className="place-items-start overscroll-y-contain"><UserInfo/></div> 
+        <div className="place-items-start"><UserInfo/></div> 
         {showTwoColumns && (
           <div className="place-items-start overscroll-y-contain border-l-2 border-white">Column 2</div> 
         )}
